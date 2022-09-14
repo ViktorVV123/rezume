@@ -1,0 +1,93 @@
+.mainBlock {
+
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    width: 80%;
+    align-items: center;
+ /*   display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    flex-wrap: wrap;*/
+
+}
+
+.containerStyle{
+display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+
+.welcome {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.photo {
+    width: 300px;
+    height: 400px;
+
+
+}
+
+.firstTitle {
+    display: block;
+    visibility: visible;
+    animation-name: fadeInUp;
+    text-indent: inherit;
+    font: 700 60px/1.2 'Libre Baskerville', serif;
+    color: #ddd;
+
+}
+
+.button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.twoTitle {
+    width: 20rem;
+    color: white;
+    margin: 0;
+    padding: 0;
+    background: #1f1f20;
+    animation: typing 5s steps(45), blink 0.5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 2em;
+    text-align: left;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent
+    }
+}
+
+.modalButton {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/*  font:400 30px/1.2 'Libre Baskerville', serif;
+color: white;*/

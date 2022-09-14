@@ -1,0 +1,18 @@
+.title{
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 5px;
+    font-family: 'Inter', sans-serif;
+    color: #ddd;
+
+
+}
+
+.moduleLine {
+    background: #1b5ba9;
+    width: 70px;
+    height: 1px;
+    margin: 30px auto;
+}

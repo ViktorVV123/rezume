@@ -1,0 +1,28 @@
+
+.containerNav{
+    min-height: 60px;
+   /* background-color: #1f1f20;*/
+    background: #181717;
+    display:flex;
+    justify-content: flex-end;
+
+}
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 10;
+
+}
+a {
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #292d2f;
+    margin: 8px;
+    color: #fff;
+    border-radius: 3px;
+}
+/* Стили для кнопок */

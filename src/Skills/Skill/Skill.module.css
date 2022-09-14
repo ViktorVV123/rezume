@@ -1,0 +1,46 @@
+.skill {
+
+
+    box-sizing: border-box;
+    height: 150px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.icon {
+    width: 80px;
+    height: 80px;
+    background-color: #050506;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.description {
+    background-color: rgba(245, 237, 137, 0.76);
+}
+.textTitleSkill{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    font: 700 20px/1.2 'Josefin Sans', sans-serif;
+    color: #fff;
+    text-align: left;
+
+}

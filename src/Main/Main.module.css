@@ -1,14 +1,22 @@
-.mainBlock {
-
-
+.main  {
 
     display: flex;
+    justify-content: center;
+    padding: 100px 0;
+
+ /*   display: flex;
     flex-direction: column;
     justify-content: flex-start;
     height: 100%;
     width: 80%;
-    align-items: center;
- /*   display: flex;
+    align-items: center;*/
+
+
+}
+
+.container{
+/*
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -17,27 +25,33 @@
     margin: 0 auto;
     flex-wrap: wrap;*/
 
-}
+    width: 80%;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 
-.containerStyle{
-display: flex;
-    justify-content: center;
-    margin: 50px;
 }
 
 
 .welcome {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+  /*  width: 100%;
+    height: 100%;
+    pointer-events: initial;*/
+    display: flex;
+    flex-direction: column;
+
 
 }
 
 .photo {
     width: 300px;
-    height: 400px;
+
+    height: auto;
+
+    max-width: 720px;
+    position: relative;
+    z-index: 0;
 
 
 }
@@ -78,16 +92,9 @@ display: flex;
     }
 }
 
-@keyframes blink {
-    50% {
-        border-color: transparent
-    }
-}
 
-.modalButton {
-    display: flex;
-    justify-content: flex-end;
-}
+
+
 
 /*  font:400 30px/1.2 'Libre Baskerville', serif;
 color: white;*/

@@ -6,7 +6,6 @@ import styleContainer from '../Common/style/Container.module.css'
 import vv from "../myphoto.jpeg";
 
 
-
 const Main = () => {
 
     const [vantaEffect, setVantaEffect] = useState(0)
@@ -43,25 +42,23 @@ const Main = () => {
     }, [vantaEffect])
     return (
 
-        <div ref={myRef} id={'main'}>
+        <div ref={myRef} className={style.main} id={'main'}>
+            <div className={style.container}>
 
-            <main>
-                <div className={style.mainBlock}>
-                    <div className={style.containerStyle}>
 
-                        <div className={style.welcome}>
-                            <h1 className={style.firstTitle}>Victor Vlasjuk</h1>
-                            <p className={style.twoTitle}>Frontend Developer</p>
-
-                        </div>
-                        <div >
-<img className={style.photo} src={vv} alt='Victor Vlasjuk'/>
-                        </div>
+                    <div className={style.welcome}>
+                        <h1 className={style.firstTitle}>Victor Vlasjuk</h1>
+                        <p className={style.twoTitle}>Frontend Developer</p>
 
                     </div>
+                    <div>
+                        <img className={style.photo} src={vv} alt='Victor Vlasjuk'/>
+                    </div>
 
-                </div>
-            </main>
+
+
+            </div>
+
 
         </div>
 

@@ -14,14 +14,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 60px 0 20px;
+    padding: 40px 0 20px;
 }
 
 .socialBlock{
     display: flex;
     justify-content: space-between;
-    width: 400px;
-    margin-top: -30px;
+    width: 200px;
+    margin-top: -20px;
+    padding: 20px;
 
 }
 
@@ -34,12 +35,13 @@
 
 
 .title{
+    margin-top: 1px;
     color: #9b9595;
 }
 
 
 .copyRight {
-    margin-top: 80px;
+    margin-top: 10px;
     font-size: 16px;
     opacity: 0.6;
     color: white;

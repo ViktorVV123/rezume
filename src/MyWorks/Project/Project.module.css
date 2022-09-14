@@ -8,6 +8,7 @@
 
 .image {
     height: 200px;
+    width: 200px;
     background-color: #050506;
     display:flex;
     justify-content: center;
@@ -16,12 +17,14 @@
     background-size:cover;
     background-position:center ;
     position: relative;
+    margin: 7px;
+
 
 }
 .image::before{
     position: absolute;
     content: '';
-    background-color: #626060;
+    background-color: #919090;
     top:0;
     bottom:0;
     left:0;
@@ -45,6 +48,7 @@
     font-weight: 400;
     line-height: 1.5;
     text-align: left;
+
 }
 
 .textTitle{

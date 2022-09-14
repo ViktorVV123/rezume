@@ -61,7 +61,7 @@ select:-webkit-autofill:focus {
 }
 .textInput{
 
-    min-width: 360px;
+    min-width: 330px;
     height: 40px;
     background: #252527 !important;
     border: 1px solid #4a4a4a;
@@ -75,7 +75,7 @@ select:-webkit-autofill:focus {
 
 
 .textariaStyle{
-    min-width: 360px;
+    min-width: 330px;
     padding: 15px;
     height: auto;
     background: #252527 !important;
@@ -85,6 +85,7 @@ select:-webkit-autofill:focus {
     box-shadow: none;
     color: white;
     margin-bottom: 8px;
+
 }
 .button{
     margin-bottom: 20px;

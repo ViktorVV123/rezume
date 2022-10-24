@@ -2,8 +2,7 @@
 import React, {useState, useEffect, useRef} from 'react'
 import BIRDS from 'vanta/dist/vanta.birds.min'
 import style from './Main.module.css';
-import styleContainer from '../Common/style/Container.module.css'
-import vv from "../myphoto.jpeg";
+import vv2 from "../myphoto.jpg";
 
 
 const Main = () => {
@@ -52,7 +51,7 @@ const Main = () => {
 
                     </div>
                     <div>
-                        <img className={style.photo} src={vv} alt='Victor Vlasjuk'/>
+                        <img className={style.photo} src={vv2} alt='Victor Vlasjuk'/>
                     </div>
 
 

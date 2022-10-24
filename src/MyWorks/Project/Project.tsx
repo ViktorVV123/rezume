@@ -15,7 +15,7 @@ export const Project = (props: ProjectType) => {
     return (
         <div className={style.project}>
             <div className={style.image} style={props.style} >
-                <Button  className={style.viewBtn} variant="contained">Смотреть</Button>
+                <Button  className={style.viewBtn}  href={props.href} variant="contained">Смотреть</Button>
             </div>
 
             <span className={style.textTitle}>{props.title}</span>

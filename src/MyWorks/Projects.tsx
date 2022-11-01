@@ -35,6 +35,7 @@ export const Projects = () => {
             <div className={`${styleContainer.container} ${style.projectsContainer}`}>
                 <Tittle title={'Projects'}/>
                 <div className={style.projects}>
+                    < Project style={test} title={'Test'} href={'https://viktorvv123.github.io/Quiz/'}/>
                     < Project style={todo} title={'Todolist'} href={'https://viktorvv123.github.io/Todolist/'}/>
                     < Project style={sait} title={'Counter'} href={'https://viktorvv123.github.io/CounterAll/'}/>
                     < Project style={social} title={'Social network'}
@@ -42,7 +43,7 @@ export const Projects = () => {
                     < Project style={menu} title={'Adaptive Menu'}
                               href={'https://viktorvv123.github.io/AdaptiveMenu/'}/>
                     < Project style={online} title={'Shop'} href={'https://viktorvv123.github.io/magazineNew/'}/>
-                    < Project style={test} title={'Test'} href={'https://viktorvv123.github.io/Quiz/'}/>
+
 
 
                 </div>

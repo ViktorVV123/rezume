@@ -13,7 +13,9 @@
     margin-right: auto;
     margin-left: auto;
 
+
 }
+
 
 .icon {
     width: 80px;
@@ -26,8 +28,11 @@
     background-size: cover;
     background-position: center;
     position: relative;
+    transition: 0.8s; /* Время эффекта */
 }
-
+.icon:hover {
+    transform: scale(1.4); /* Увеличиваем масштаб */
+}
 .description {
     background-color: rgba(245, 237, 137, 0.76);
 }

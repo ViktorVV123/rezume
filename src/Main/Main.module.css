@@ -59,12 +59,40 @@
 .firstTitle {
     display: block;
     visibility: visible;
-    animation-name: fadeInUp;
+
     text-indent: inherit;
     font: 700 60px/1.2 'Libre Baskerville', serif;
     color: #ddd;
+    animation-duration: 5s;
+    animation-name: slidein;
+
 
 }
+
+
+
+
+@keyframes slidein {
+    from {
+        margin-left: 70%;
+        width: 100%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+        tab-stops: center;
+    }
+}
+
+
+
+/*
+.firstTitle::before{
+    transform: translate(0px,0px);
+    opacity: 1;
+}
+*/
 
 .button {
     display: flex;

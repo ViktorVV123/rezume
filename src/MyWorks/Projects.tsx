@@ -9,9 +9,13 @@ import onlineImage from './../assets/image/OnlineShop.png'
 import socialImage from './../assets/image/socialNetwork.jpg'
 import menuimage from './../assets/image/menu.jpg'
 import testImage from './../assets/image/test.jpg'
+// @ts-ignore
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 
 export const Projects = () => {
+    AOS.init();
     const todo = {
         backgroundImage: `url(${todoImage})`
     }
@@ -33,18 +37,23 @@ export const Projects = () => {
     return (
         <div className={style.projectsBlock} id={'projects'}>
             <div className={`${styleContainer.container} ${style.projectsContainer}`}>
+                <div  data-aos="fade-right" data-aos-duration="1200">
                 <Tittle title={'Projects'}/>
+                </div>
                 <div className={style.projects}>
 
-                    < Project style={todo} title={'Todolist'} href={'https://viktorvv123.github.io/Todolist/'}/>
-                    < Project style={test} title={'Test'} href={'https://viktorvv123.github.io/Quiz/'}/>
-                    < Project style={sait} title={'Counter'} href={'https://viktorvv123.github.io/CounterAll/'}/>
-                    < Project style={social} title={'Social network'}
-                              href={'https://viktorvv123.github.io/MySocialPage/'}/>
-                    < Project style={menu} title={'Adaptive Menu'}
-                              href={'https://viktorvv123.github.io/AdaptiveMenu/'}/>
-                    < Project style={online} title={'Shop'} href={'https://viktorvv123.github.io/magazineNew/'}/>
-
+                    <div data-aos="flip-left">< Project style={todo} title={'Todolist'}
+                                                        href={'https://viktorvv123.github.io/Todolist/'}/></div>
+                    <div data-aos="flip-left">< Project style={test} title={'Test'}
+                                                        href={'https://viktorvv123.github.io/Quiz/'}/></div>
+                    <div data-aos="flip-left">< Project style={sait} title={'Counter'}
+                                                        href={'https://viktorvv123.github.io/CounterAll/'}/></div>
+                    <div data-aos="flip-right">< Project style={social} title={'Social network'}
+                                                        href={'https://viktorvv123.github.io/MySocialPage/'}/></div>
+                    <div data-aos="flip-right">< Project style={menu} title={'Adaptive Menu'}
+                                                        href={'https://viktorvv123.github.io/AdaptiveMenu/'}/></div>
+                    <div data-aos="flip-right">< Project style={online} title={'Shop'}
+                                                        href={'https://viktorvv123.github.io/magazineNew/'}/></div>
 
 
                 </div>

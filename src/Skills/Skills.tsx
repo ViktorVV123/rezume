@@ -9,9 +9,13 @@ import miImage from './../assets/image/MI.png'
 import reactImage from './../assets/image/React.png'
 import reduxImage from './../assets/image/Redux.jpg'
 import tsImage from './../assets/image/TYPESCRPT.png'
+// @ts-ignore
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 
 export const Skills = () => {
+    AOS.init();
     const css = {
         backgroundImage: `url(${cssImage})`
     }
@@ -35,7 +39,9 @@ export const Skills = () => {
     return (
         <div className={style.skillsBlock} id={'skills'}>
             <div className={`${styleContainer.container} ${style.skillContainer}`}>
+                <div  data-aos="fade-left" data-aos-duration="1200" >
                 <Tittle title={'My skills'}/>
+                </div>
                 <div className={style.skills}>
                     <Skill style={react} title={'REACT'}/>
                     <Skill style={ts} title={'TYPESCRIPT'}/>

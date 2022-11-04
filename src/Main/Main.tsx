@@ -3,10 +3,12 @@ import React, {useState, useEffect, useRef} from 'react'
 import BIRDS from 'vanta/dist/vanta.birds.min'
 import style from './Main.module.css';
 import vv2 from "../myphoto.jpg";
-
+// @ts-ignore
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 const Main = () => {
-
+    AOS.init();
     const [vantaEffect, setVantaEffect] = useState(0)
 
     const myRef = useRef(null)
@@ -50,7 +52,8 @@ const Main = () => {
                         <p className={style.twoTitle}>Frontend Developer</p>
 
                     </div>
-                    <div>
+                    <div data-aos="fade-left" data-aos-easing="linear"
+                         data-aos-duration="3000">
                         <img className={style.photo} src={vv2} alt='Victor Vlasjuk'/>
                     </div>
 

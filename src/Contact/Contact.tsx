@@ -24,8 +24,8 @@ export const Contact = () => {
                     </div>
                     <div className={style.visibility}>
                         <textarea className={style.textariaStyle} id='message' name='c_message' rows={7} placeholder='Your Message' required/>
-                    </div>
-                    <Button className={style.button} type='submit' data-wow-delay='.3s'  variant="outlined">Send Message</Button>
+                    </div >
+                   <div data-aos="fade-up"> <Button style={{marginBottom:'10px'}} className={style.button} type='submit' data-wow-delay='.3s'  variant="outlined">Send Message</Button></div>
                     <div className={style.line}></div>
                 </form>
             </div>
